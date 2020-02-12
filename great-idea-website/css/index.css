@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header nav{
+	display: inline;
+	font-size: 20px;
+}
+header nav a{
+	color: grey;
+	text-decoration: none;
+	margin: 3%;
+}
+
+#iod, #snip{
+	display: inline-block;
+	margin-top: 50px;
+}
+#iod{
+	font-size: 75px;
+	margin-left: 13%;
+	margin-right: 10%;
+	text-align:center;
+	font-style: italic;
+
+}
+#iod a{
+	font-size: 20px;
+	font-style: normal;
+	text-decoration: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	border: 1px solid black;
+	color: black;
+}
+.banner{
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+	border-bottom: 3px solid black;
+}
+
+#feat, #about{
+	display: inline-block;
+	width: 30%;
+	margin: 0 5%;
+	margin-bottom: 5%;
+	font-size: 20px;
+}
+.middle-img {
+	margin: 0 5%;
+	width: 65%;
+	display: block;
+}
+#serv, #prod, #vis {
+	display: inline-block;
+	width: 15%;
+	margin: 2% 5%;
+	font-size: 20px;
+}
+
+footer{
+	border-top: 3px solid black;
+	padding-top: 60px;
+	margin-top: 50px;
+}
+#cont {
+	margin: 0 5%;
+	line-height: 1.5;
+	font-size: 20px;
+}
+address{
+	line-height: 1;
+}
+#copyright{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+}
